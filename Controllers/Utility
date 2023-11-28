@@ -1,0 +1,48 @@
+package Controllers
+
+import (
+	"encoding/json"
+
+	"github.com/gin-gonic/gin"
+	log "github.com/sirupsen/logrus"
+)
+
+func Utility(c *gin.Context) {
+
+	requestData := make(map[string]interface{})
+	json.NewDecoder(c.Request.Body).Decode(&requestData)
+
+	State := requestData["state"].(string)
+	Id := requestData["id"].(int)
+	log.Info("RequestData: ", requestData)
+
+	defer func() {
+		if panicInfo := recover(); panicInfo != nil {
+			log.Error("panicInfo:", panicInfo)
+			InternalServerErrorResponse(c, panicInfo.(error))
+			return
+		}
+	}()
+	resp, err := ConnectionGet(State,Id)
+
+	switch resp {
+	case 200:
+		log.Info("File Copied Successfully ")
+		//ConnectionPost(State, "done")
+		successResponse(c, "File Copied Successfully.", map[string]interface{}{})
+
+	case 204:
+		log.Info("File Not Found ")
+		//ConnectionPost(State, "not_found")
+		NoDataFoundResponse(c, "File Not Found.")
+
+	case 500:
+		log.Error("InternalServerError ", err)
+		//ConnectionPost(State, "failed")
+		InternalServerErrorResponse(c, err)
+	default:
+		log.Info("Default Case: Type ")
+	}
+
+	return
+}

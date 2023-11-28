@@ -1,0 +1,14 @@
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:66",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "Current Time: 2021-11-02 15:40:38.566428325 +0530 IST m=+12.310432315",
+  "time": "2021-11-02 15:40:38"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:67",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "logFileName: 2021-11-02.log",
+  "time": "2021-11-02 15:40:38"
+}

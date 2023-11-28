@@ -1,0 +1,84 @@
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:71",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "Current Time: 2022-01-12 11:46:05.784006789 +0530 IST m=+28.773705519",
+  "time": "2022-01-12 11:46:05"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:72",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "logFileName: 2022-01-12.log",
+  "time": "2022-01-12 11:46:05"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:71",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "Current Time: 2022-01-12 11:46:39.389920768 +0530 IST m=+62.379619493",
+  "time": "2022-01-12 11:46:39"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:72",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "logFileName: 2022-01-12.log",
+  "time": "2022-01-12 11:46:39"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:71",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "Current Time: 2022-01-12 11:46:41.064967961 +0530 IST m=+64.054666698",
+  "time": "2022-01-12 11:46:41"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:72",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "logFileName: 2022-01-12.log",
+  "time": "2022-01-12 11:46:41"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:71",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "Current Time: 2022-01-12 11:46:42.541011628 +0530 IST m=+65.530710360",
+  "time": "2022-01-12 11:46:42"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:72",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "logFileName: 2022-01-12.log",
+  "time": "2022-01-12 11:46:42"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:71",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "Current Time: 2022-01-12 11:46:47.874998918 +0530 IST m=+70.864697644",
+  "time": "2022-01-12 11:46:47"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:72",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "logFileName: 2022-01-12.log",
+  "time": "2022-01-12 11:46:47"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:71",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "Current Time: 2022-01-12 11:47:51.238482143 +0530 IST m=+50.677850905",
+  "time": "2022-01-12 11:47:51"
+}
+{
+  "file": "/home/choice/Documents/GoProject/api/Routes/router.go:72",
+  "func": "root/Routes.generateDailyLogFile",
+  "level": "debug",
+  "msg": "logFileName: 2022-01-12.log",
+  "time": "2022-01-12 11:47:51"
+}
